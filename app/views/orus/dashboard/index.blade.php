@@ -1,0 +1,1 @@
+C:\Users\PedroLuna\PhpstormProjects\orusglobal\app/views/orus/dashboard/index.blade.php

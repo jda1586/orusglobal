@@ -1,0 +1,1 @@
+C:\Users\PedroLuna\PhpstormProjects\orusglobal\app/views/site/register.blade.php

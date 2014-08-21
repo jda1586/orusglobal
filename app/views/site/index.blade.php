@@ -41,17 +41,28 @@
                             <div id="u264"><!-- simple frame --></div>
                             <div class="clearfix" id="pu259-6"><!-- group -->
                                 <div class="clearfix grpelem" id="u259-6"><!-- content -->
-                                    <div style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">1</div>
+                                    <div
+                                        style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
+                                        1
+                                    </div>
                                     <p style="margin-bottom: 20px">
                                         <span id="u259">Fill out completely </span><br>
                                         <span id="u259-3">Complete all required fields</span>
                                     </p>
-                                    <div style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">2</div>
+
+                                    <div
+                                        style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
+                                        2
+                                    </div>
                                     <p style="margin-bottom: 20px">
                                         <span id="u259">Upload Docs and Submit</span><br>
                                         <span id="u259-3">ID and Proof of Address</span>
                                     </p>
-                                    <div style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">3</div>
+
+                                    <div
+                                        style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
+                                        3
+                                    </div>
                                     <p style="margin-bottom: 20px">
                                         <span id="u259">Pay $49 annual fee</span><br>
                                         <span id="u259-3"></span>
@@ -64,8 +75,10 @@
                                 <img class="block" id="u261_img" src="/images/next_icon.png" alt="" width="8"
                                      height="14"/>
                             </div>
-                            <div class="clearfix grpelem" id="u263-4"><!-- content -->
-                                <p>Go to Record</p>
+                            <div class="clearfix grpelem" id="u263-4">
+                                <a href="#steps" style="text-decoration: none; color: white;">
+                                    <p>Go to Record</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -83,18 +96,24 @@
     </div>
     <ul class="MenuBar clearfix" id="menuu1590"><!-- horizontal box -->
         <li class="MenuItemContainer clearfix grpelem" id="u1638">
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1641" href="#home">
-                <div class="MenuItemLabel NoWrap clearfix grpelem" id="u1642-4"><p><?=Lang::get('site.menu.home')?></p></div>
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1641"
+               href="#home">
+                <div class="MenuItemLabel NoWrap clearfix grpelem" id="u1642-4">
+                    <p><?= Lang::get('site.menu.home') ?></p></div>
             </a>
         </li>
         <li class="MenuItemContainer clearfix grpelem" id="u1645">
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1648" href="#aboutus">
-                <div class="MenuItemLabel NoWrap clearfix grpelem" id="u1650-4"><p><?=Lang::get('site.menu.about')?></p></div>
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1648"
+               href="#aboutus">
+                <div class="MenuItemLabel NoWrap clearfix grpelem" id="u1650-4">
+                    <p><?= Lang::get('site.menu.about') ?></p></div>
             </a>
         </li>
         <li class="MenuItemContainer clearfix grpelem" id="u1652">
-            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1653" href="#contact">
-                <div class="MenuItemLabel NoWrap clearfix grpelem" id="u1654-4"><p><?=Lang::get('site.menu.contact')?></p></div>
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u1653"
+               href="#contact">
+                <div class="MenuItemLabel NoWrap clearfix grpelem" id="u1654-4">
+                    <p><?= Lang::get('site.menu.contact') ?></p></div>
             </a>
         </li>
     </ul>
@@ -106,7 +125,7 @@
                 <p>Orus Global</p>
             </div>
             <div class="clearfix colelem" id="u110-4">
-                <p><?=Lang::get('site.about.title')?></p>
+                <p><?= Lang::get('site.about.title') ?></p>
             </div>
             <div class="clip_frame colelem" id="u1719">
                 <img class="block" id="u1719_img" src="/images/white_triangle.png" alt="" width="30" height="15"/>
@@ -216,49 +235,120 @@
     </div>
 </div>
 
-<div class="browser_width colelem" id="u1372"><!-- simple frame --></div>
-<div class="clearfix colelem" id="pu1371"><!-- group -->
-    <div class="browser_width grpelem" id="u1371"><!-- group -->
+<div class="browser_width colelem" id="u1372"></div>
+<div class="clearfix colelem" id="pu1371">
+    <div class="browser_width grpelem" id="u1371">
         <div class="clearfix" id="u1371_align_to_page">
-            <div class="grpelem" id="pu1373"><!-- inclusion -->
-                <div id="u1373"><!-- simple frame --></div>
-                <div class="clearfix" id="pu1381-4"><!-- column -->
-                    <div class="clearfix colelem" id="u1381-4"><!-- content -->
-                        <p>Free Support</p>
+            <?= Form::open(['action' => ['orus.register', $lang = 'en'], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
+            <div class="grpelem" id="pu1373">
+                <div id="u1373"></div>
+                <div class="clearfix" id="pu1381-4">
+                    <div class="clearfix colelem" id="u1381-4">
+                        <p>Fill out completely </p>
                     </div>
                     <div class="clearfix colelem" id="u1382-4"><!-- content -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus dui id libero ornare, et
-                            pharetra sapien bibendum. Aenean metus ante, vehicula et rhoncus vestibulum, scelerisque eu
-                            risus.</p>
+                        <p>
+                        <table class="orus_table">
+                            <tr>
+                                <td><?= Form::text('user', null, ['class' => 'orus_input', 'placeholder' => "Vizinova's User"]) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('name', null, ['class' => 'orus_input', 'placeholder' => 'Name']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('lastname', null, ['class' => 'orus_input', 'placeholder' => 'Last Name']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('address', null, ['class' => 'orus_input', 'placeholder' => 'Address']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('zipcode', null, ['class' => 'orus_input', 'placeholder' => 'Zipcode']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('phone', null, ['class' => 'orus_input', 'placeholder' => 'Phone']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('email', null, ['class' => 'orus_input', 'placeholder' => 'Email']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('birthday', null, ['class' => 'orus_input', 'placeholder' => 'Birthday']) ?></td>
+                            </tr>
+                            <tr>
+                                <td><?= Form::text('gender', null, ['class' => 'orus_input', 'placeholder' => 'Gender']) ?></td>
+                            </tr>
+                        </table>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="grpelem" id="pu1393"><!-- inclusion -->
-                <div id="u1393"><!-- simple frame --></div>
-                <div class="clearfix" id="pu1394-4"><!-- column -->
-                    <div class="clearfix colelem" id="u1394-4"><!-- content -->
-                        <p>Elegant Design</p>
+            <div class="grpelem" id="pu1393">
+                <div id="u1393"></div>
+                <div class="clearfix" id="pu1394-4">
+                    <div class="clearfix colelem" id="u1394-4">
+                        <p>Upload Docs and Submit</p>
                     </div>
-                    <div class="clearfix colelem" id="u1402-4"><!-- content -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus dui id libero ornare, et
-                            pharetra sapien bibendum. Aenean metus ante, vehicula et rhoncus vestibulum, scelerisque eu
-                            risus.</p>
+                    <div class="clearfix colelem" id="u1402-4">
+                        <p>
+                            <strong style="color: #000000;">Upload Doc. #1</strong><br>
+                            (Government Issued ID such as a Driver's License, Passport, Identity Card, etc)
+                        </p>
+
+                        <p style="padding: 10px 0px;">
+                            <?= Form::file('id_file') ?>
+                        </p>
+                    </div>
+                    <div class="clearfix colelem" id="u1402-4">
+                        <p>
+                            <strong style="color: #000000;">Upload Doc #2</strong><br>
+                            (Proof of Residence can be a Water, Light, Gas, Phone Bill, etc)
+                        </p>
+
+                        <p style="padding: 10px 0px;">
+                            <?= Form::file('proof_file') ?>
+                        </p>
+                    </div>
+                    <div class="clearfix colelem" id="u1402-4">
+                        <p>
+                            <strong style="color: #000000;">Upload Doc #3</strong><br>
+                            (Corporation Docs name Principal as person requesting the Visa Card)
+                        </p>
+
+                        <p style="padding: 10px 0px;">
+                            <?= Form::file('corp_file') ?>
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="grpelem" id="pu1413"><!-- inclusion -->
-                <div id="u1413"><!-- simple frame --></div>
-                <div class="clearfix" id="pu1414-4"><!-- column -->
-                    <div class="clearfix colelem" id="u1414-4"><!-- content -->
-                        <p>Easy to Start</p>
+            <div class="grpelem" id="pu1413">
+                <div id="u1413"></div>
+                <div class="clearfix" id="pu1414-4">
+                    <div class="clearfix colelem" id="u1414-4">
+                        <p>Pay $49 annual fee</p>
                     </div>
-                    <div class="clearfix colelem" id="u1422-4"><!-- content -->
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus dui id libero ornare, et
-                            pharetra sapien bibendum. Aenean metus ante, vehicula et rhoncus vestibulum, scelerisque eu
-                            risus.</p>
+                    <div class="clearfix colelem" id="u1422-4">
+                        <p>
+                            Submit. You will receive an email confirmation.
+                            Wait 12 to 15 working days to receive your card in the mail.
+                        </p>
+                        <br>
+
+                        <p>
+
+                        <div class="clearfix colelem" id="u260" style="margin-left: 48px; cursor: pointer;"
+                             onclick="document.getElementById('orus_register').submit();">
+                            <div class="clip_frame grpelem" id="u261">
+                                <img class="block" id="u261_img" src="/images/next_icon.png" alt="" width="8"
+                                     height="14"/>
+                            </div>
+                            <div class="clearfix grpelem" id="u263-4">
+                                <p>Submit</p>
+                            </div>
+                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
+            <?= Form::close() ?>
         </div>
     </div>
     <div class="BlueBox clearfix grpelem" id="u1374"><!-- group -->
@@ -324,15 +414,16 @@
     </div>
     <div class="clearfix grpelem" id="u1461-16"><!-- content -->
         <p>ViziNova S.A. de C.V.<br>
-        Piso 14 Torre Aura<br>
-        Avenida Royal Country, CP 45116<br>
-        Col. Puerta de Hierro<br>
-        Zapopan, Jalisco  Mexico</p>
+            Piso 14 Torre Aura<br>
+            Avenida Royal Country, CP 45116<br>
+            Col. Puerta de Hierro<br>
+            Zapopan, Jalisco Mexico</p>
         <br>
+
         <p>ViziNova<br>
-        #2503 - 25th Floor<br>
-        Ontario Tower, Business Bay<br>
-        Dubai, UAE</p>
+            #2503 - 25th Floor<br>
+            Ontario Tower, Business Bay<br>
+            Dubai, UAE</p>
     </div>
 </div>
 <div class="browser_width colelem" id="u1448"><!-- group -->

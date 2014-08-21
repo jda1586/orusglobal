@@ -18,6 +18,7 @@ Route::group(array('prefix' => '{lang?}', 'before' => 'lang'), function ($lang) 
     Route::group(array('before' => 'login_ready'), function () {
         Route::get('login', array('as' => 'site.login', 'uses' => 'LoginController@index'));
         Route::post('login', array('as' => 'site.login', 'uses' => 'LoginController@login'));
+        Route::post('register', array('as' => 'orus.register', 'uses' => 'RegisterController@store'));
     });
 
     // Rutas para Orus

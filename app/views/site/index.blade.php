@@ -369,7 +369,7 @@
     <div class="clearfix" id="u1443_align_to_page">
         <div class="position_content" id="u1443_position_content">
             <div class="clearfix colelem" id="u1444-4"><!-- content -->
-                <p>A Flexible, Fast Tool For ViziNova Distributors' Payments.</p>
+                <p style="font-size: 32px;">A Flexible, Fast Tool For ViziNova Distributor's Payments.</p>
             </div>
             <div class="clearfix colelem" id="u1445-4"><!-- content -->
                 <p>Instead of Stay In Touch pon Oru Global is a subsidiary of ViziNova S.A. de C.V.</p>

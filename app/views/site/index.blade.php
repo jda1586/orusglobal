@@ -202,7 +202,8 @@
             <div class="ContainerGroup clearfix" id="u795"><!-- stack box -->
                 <div class="Container clearfix grpelem" id="u798"><!-- group -->
                     <div class="clearfix grpelem" id="u810-7"><!-- content -->
-                        <p id="u810-2">&quot;Orus Global is ViziNova ' s exclusive Visa Card payout system program for distributor commission disbursements.&quot;</p>
+                        <p id="u810-2">&quot;Orus Global is ViziNova ' s exclusive Visa Card payout system program for
+                            distributor commission disbursements.&quot;</p>
 
                         <p id="u810-3">&nbsp;</p>
 
@@ -236,7 +237,7 @@
 <div class="clearfix colelem" id="pu1371">
     <div class="browser_width grpelem" id="u1371">
         <div class="clearfix" id="u1371_align_to_page">
-            <?= Form::open(['action' => ['orus.register', $lang], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
+            <?= Form::open(['route' => ['orus.register', $lang], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
             <div class="grpelem" id="pu1373">
                 <div id="u1373"></div>
                 <div class="clearfix" id="pu1381-4">

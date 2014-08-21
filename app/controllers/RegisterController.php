@@ -31,9 +31,9 @@ class RegisterController extends \BaseController
      *
      * @return Response
      */
-    public function store()
+    public function store($lang)
     {
-        return Redirect::route('root', ['lang' => 'en']);
+        return Redirect::route('root', ['lang' => $lang]);
     }
 
     /**

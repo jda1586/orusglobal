@@ -9,9 +9,9 @@ class SiteController extends \BaseController
         //
     }
 
-    public function index()
+    public function index($lang)
     {
-        return View::make('site.index', ['lang' => Request::get('lang')]);
+        return View::make('site.index', ['lang' => $lang]);
     }
 
 }

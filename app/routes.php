@@ -13,7 +13,7 @@
 
 // Rutas del sitio
 Route::group(array('prefix' => '{lang?}', 'before' => 'lang'), function ($lang) {
-    Route::get('/', array('as' => 'root', 'uses' => 'SiteController@index'));
+    Route::get('/', array('as' => 'root', 'uses' => 'SiteController@index', 'lang' => $lang));
     // Rutas para login
     Route::group(array('before' => 'login_ready'), function () {
         Route::get('login', array('as' => 'site.login', 'uses' => 'LoginController@index'));

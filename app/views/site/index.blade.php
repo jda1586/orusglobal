@@ -202,32 +202,29 @@
             <div class="ContainerGroup clearfix" id="u795"><!-- stack box -->
                 <div class="Container clearfix grpelem" id="u798"><!-- group -->
                     <div class="clearfix grpelem" id="u810-7"><!-- content -->
-                        <p id="u810-2">&quot;Care and accuracy in the design process show respect towards the consumer.&quot;</p>
+                        <p id="u810-2">&quot;Orus Global is ViziNova ' s exclusive Visa Card payout system program for distributor commission disbursements.&quot;</p>
 
                         <p id="u810-3">&nbsp;</p>
 
-                        <p id="u810-5">&#45; ThemeForest &#45;</p>
+                        <p id="u810-5">&#45; ViziNova Corporate &#45;</p>
                     </div>
                 </div>
                 <div class="Container invi clearfix grpelem" id="u812"><!-- group -->
                     <div class="clearfix grpelem" id="u816-7"><!-- content -->
-                        <p id="u816-2">&quot;Gorgeous, just gorgeous I love this theme. The nicest theme I ever worked
-                            with and I have worked with hundreds of them. Thanks for beautiful work, keep it
-                            up!&quot;</p>
+                        <p id="u816-2">&quot;Nobody pays like ViziNova!&quot;</p>
 
                         <p id="u816-3">&nbsp;</p>
 
-                        <p id="u816-5">&#45; ActiveDen &#45;</p>
+                        <p id="u816-5">&#45; Hagen H. Distributor, Germany. &#45;</p>
                     </div>
                 </div>
                 <div class="Container invi clearfix grpelem" id="u815"><!-- group -->
                     <div class="clearfix grpelem" id="u817-7"><!-- content -->
-                        <p id="u817-2">&quot;The customisation possibilities are 10 of 10. No words needed – you can do
-                            mostly anything, and everything was thought out for your future needs. &quot;</p>
+                        <p id="u817-2">&quot;Products and Payments processing. Get ready...now we are Open For Business.&quot;</p>
 
                         <p id="u817-3">&nbsp;</p>
 
-                        <p id="u817-5">&#45; GraphicRiver &#45;</p>
+                        <p id="u817-5">&#45; Mary R. Distributor, Ecuador. &#45;</p>
                     </div>
                 </div>
             </div>
@@ -239,7 +236,7 @@
 <div class="clearfix colelem" id="pu1371">
     <div class="browser_width grpelem" id="u1371">
         <div class="clearfix" id="u1371_align_to_page">
-            <?= Form::open(['action' => ['orus.register', $lang = 'en'], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
+            <?= Form::open(['action' => ['orus.register', $lang], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
             <div class="grpelem" id="pu1373">
                 <div id="u1373"></div>
                 <div class="clearfix" id="pu1381-4">
@@ -250,10 +247,10 @@
                         <p>
                         <table class="orus_table">
                             <tr>
-                                <td><?= Form::text('user', null, ['class' => 'orus_input', 'placeholder' => "Vizinova's User"]) ?></td>
+                                <td><?= Form::text('user', null, ['class' => 'orus_input', 'placeholder' => "ViziNova Username"]) ?></td>
                             </tr>
                             <tr>
-                                <td><?= Form::text('name', null, ['class' => 'orus_input', 'placeholder' => 'Name']) ?></td>
+                                <td><?= Form::text('name', null, ['class' => 'orus_input', 'placeholder' => 'First Name']) ?></td>
                             </tr>
                             <tr>
                                 <td><?= Form::text('lastname', null, ['class' => 'orus_input', 'placeholder' => 'Last Name']) ?></td>
@@ -372,10 +369,10 @@
     <div class="clearfix" id="u1443_align_to_page">
         <div class="position_content" id="u1443_position_content">
             <div class="clearfix colelem" id="u1444-4"><!-- content -->
-                <p>A Flexible, Fast Tool For Creatives</p>
+                <p>A Flexible, Fast Tool For ViziNova Distributors' Payments.</p>
             </div>
             <div class="clearfix colelem" id="u1445-4"><!-- content -->
-                <p>A clean landing page to showcase your business services and send your customers reeling with awe.</p>
+                <p>Instead of Stay In Touch pon Oru Global is a subsidiary of ViziNova S.A. de C.V.</p>
             </div>
             <div class="clip_frame colelem" id="u1727"><!-- image -->
                 <img class="block" id="u1727_img" src="/images/white_triangle.png" alt="" width="30" height="15"/>

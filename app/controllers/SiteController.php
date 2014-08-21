@@ -11,12 +11,7 @@ class SiteController extends \BaseController
 
     public function index()
     {
-        return View::make('site.index');
-    }
-
-    public function register()
-    {
-        return View::make('site.register');
+        return View::make('site.index', ['lang' => Request::get('lang')]);
     }
 
 }

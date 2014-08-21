@@ -323,27 +323,22 @@
         </div>
     </div>
     <div class="clearfix grpelem" id="u1461-16"><!-- content -->
-        <p>Contact Info:</p>
-
-        <p>12345 North Main Street,</p>
-
-        <p>Istanbul / TURKEY</p>
-
-        <p>&nbsp;</p>
-
-        <p>Phone: 1.800.555.6789&nbsp; &#45;&nbsp; Mobile:1.800.4343.3535</p>
-
-        <p>Fax: 1.800.555.6789</p>
-
-        <p>&nbsp;</p>
-
-        <p>Email: support@yourcompany.com</p>
+        <p>ViziNova S.A. de C.V.<br>
+        Piso 14 Torre Aura<br>
+        Avenida Royal Country, CP 45116<br>
+        Col. Puerta de Hierro<br>
+        Zapopan, Jalisco  Mexico</p>
+        <br>
+        <p>ViziNova<br>
+        #2503 - 25th Floor<br>
+        Ontario Tower, Business Bay<br>
+        Dubai, UAE</p>
     </div>
 </div>
 <div class="browser_width colelem" id="u1448"><!-- group -->
     <div class="clearfix" id="u1448_align_to_page">
         <div class="clearfix grpelem" id="u1490-4"><!-- content -->
-            <p>Neptune Corporate&nbsp; Muse Web Page / Copyright 2013 by Baris Intepe</p>
+            <p>ViziNova - Copyright 2014</p>
         </div>
     </div>
 </div>

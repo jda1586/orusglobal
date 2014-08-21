@@ -106,7 +106,7 @@
                 <p>Orus Global</p>
             </div>
             <div class="clearfix colelem" id="u110-4">
-                <p>ViziNova's Exclusive Payout System.</p>
+                <p><?=Lang::get('site.about.title')?></p>
             </div>
             <div class="clip_frame colelem" id="u1719">
                 <img class="block" id="u1719_img" src="/images/white_triangle.png" alt="" width="30" height="15"/>
@@ -123,10 +123,10 @@
     </div>
     <div class="clearfix grpelem" id="pu123-4">
         <div class="clearfix colelem" id="u123-4">
-            <p>Free Support</p>
+            <p>EWallet Points</p>
         </div>
         <div class="clearfix colelem" id="u125-4">
-            <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
+            <p>EWallet Points to Cash Conversion: Your commissions funded in your Visa Card within 48 hours.</p>
         </div>
     </div>
     <div class="BlueBox clearfix grpelem" id="u136"><!-- group -->
@@ -136,10 +136,10 @@
     </div>
     <div class="clearfix grpelem" id="pu137-4"><!-- column -->
         <div class="clearfix colelem" id="u137-4"><!-- content -->
-            <p>Beautifully Simplistic</p>
+            <p>Flexability of Use</p>
         </div>
         <div class="clearfix colelem" id="u138-4"><!-- content -->
-            <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
+            <p>Anywhere Visa is accepted</p>
         </div>
     </div>
     <div class="BlueBox clearfix grpelem" id="u148"><!-- group -->
@@ -149,273 +149,20 @@
     </div>
     <div class="clearfix grpelem" id="pu149-4"><!-- column -->
         <div class="clearfix colelem" id="u149-4"><!-- content -->
-            <p>Awesome Sliders</p>
+            <p>One Click fund request from Backoffice</p>
         </div>
         <div class="clearfix colelem" id="u150-4"><!-- content -->
-            <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
+            <p>Follow the cashout option steps to request your funds transfer.</p>
         </div>
     </div>
 </div>
-<div class="clearfix colelem" id="pu186"><!-- group -->
-    <div class="BlueBox clearfix grpelem" id="u186"><!-- group -->
-        <div class="clip_frame grpelem" id="u197"><!-- image -->
-            <img class="block" id="u197_img" src="/images/icon4.png" alt="" width="27" height="27"/>
-        </div>
-    </div>
-    <div class="clearfix grpelem" id="pu182-4"><!-- column -->
-        <div class="clearfix colelem" id="u182-4"><!-- content -->
-            <p>Extensive Style Options</p>
-        </div>
-        <div class="clearfix colelem" id="u181-4"><!-- content -->
-            <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-        </div>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u180"><!-- group -->
-        <div class="clip_frame grpelem" id="u202"><!-- image -->
-            <img class="block" id="u202_img" src="/images/icon5.png" alt="" width="28" height="28"/>
-        </div>
-    </div>
-    <div class="clearfix grpelem" id="pu176-4"><!-- column -->
-        <div class="clearfix colelem" id="u176-4"><!-- content -->
-            <p>Easy to Start</p>
-        </div>
-        <div class="clearfix colelem" id="u175-4"><!-- content -->
-            <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-        </div>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u172"><!-- group -->
-        <div class="clip_frame grpelem" id="u207"><!-- image -->
-            <img class="block" id="u207_img" src="/images/icon6.png" alt="" width="27" height="27"/>
-        </div>
-    </div>
-    <div class="clearfix grpelem" id="pu173-4"><!-- column -->
-        <div class="clearfix colelem" id="u173-4"><!-- content -->
-            <p>Unlimited Colors</p>
-        </div>
-        <div class="clearfix colelem" id="u174-4"><!-- content -->
-            <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu318"><!-- group -->
-    <div class="browser_width grpelem" id="u318"><!-- column -->
-        <div class="clearfix" id="u318_align_to_page">
-            <div class="clearfix colelem" id="u334-5"><!-- content -->
-                <p>We Are Great <span id="u334-2">Team</span></p>
-            </div>
-            <div class="clearfix colelem" id="u335-4"><!-- content -->
-                <p>A clean corporate page to showcase your business services and send your customers reeling with
-                    awe.</p>
-            </div>
-            <div class="BlueBox clearfix colelem" id="u447"><!-- group -->
-                <div class="clearfix grpelem" id="u449-4"><!-- content -->
-                    <p>Beautifully Simplistic</p>
-                </div>
-            </div>
-            <div class="clearfix colelem" id="u445-4"><!-- content -->
-                <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-            </div>
-            <div class="BlueBox clearfix colelem" id="u462"><!-- group -->
-                <div class="clearfix grpelem" id="u461-4"><!-- content -->
-                    <p>Extensive Style Options</p>
-                </div>
-            </div>
-            <div class="clearfix colelem" id="u460-4"><!-- content -->
-                <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix grpelem" id="u343-4"><!-- content -->
-        <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-    </div>
-    <div class="clearfix grpelem" id="u403-4"><!-- content -->
-        <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices.</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u388"><!-- group -->
-        <div class="clearfix grpelem" id="u342-4"><!-- content -->
-            <p>Easy to Start</p>
-        </div>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u402"><!-- group -->
-        <div class="clearfix grpelem" id="u401-4"><!-- content -->
-            <p>Free Support</p>
-        </div>
-    </div>
-</div>
-<div class="clip_frame pre_init se_invi" id="u329"><!-- image -->
-    <img class="block" id="u329_img" src="/images/about_us.png" alt="" width="735" height="493"/>
-</div>
-<div class="clearfix colelem" id="pu513"><!-- group -->
-    <div class="browser_width grpelem" id="u513"><!-- column -->
-        <div class="clearfix" id="u513_align_to_page">
-            <div class="clearfix colelem" id="u528-4"><!-- content -->
-                <p>A clean landing page to showcase your business services and send your customers reeling with awe.</p>
-            </div>
-            <div class="BlueBox clearfix colelem" id="u529"><!-- group -->
-                <div class="clip_frame grpelem" id="u531"><!-- image -->
-                    <img class="block" id="u531_img" src="/images/check.png" alt="" width="14" height="14"/>
-                </div>
-            </div>
-            <div class="BlueBox clearfix colelem" id="u545"><!-- group -->
-                <div class="clip_frame grpelem" id="u542"><!-- image -->
-                    <img class="block" id="u542_img" src="/images/check.png" alt="" width="14" height="14"/>
-                </div>
-            </div>
-            <div class="BlueBox clearfix colelem" id="u550"><!-- group -->
-                <div class="clip_frame grpelem" id="u547"><!-- image -->
-                    <img class="block" id="u547_img" src="/images/check.png" alt="" width="14" height="14"/>
-                </div>
-            </div>
-            <div class="BlueBox clearfix colelem" id="u555"><!-- group -->
-                <div class="clip_frame grpelem" id="u552"><!-- image -->
-                    <img class="block" id="u552_img" src="/images/check.png" alt="" width="14" height="14"/>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix grpelem" id="u526-4"><!-- content -->
-        <p>Powerful Responsive Design</p>
-    </div>
-    <div class="clearfix grpelem" id="u536-4"><!-- content -->
-        <p>Fully responsive so your content will always look good.</p>
-    </div>
-    <div class="clearfix grpelem" id="u546-4"><!-- content -->
-        <p>Awesome sliders give you the opportunity to showcase important content</p>
-    </div>
-    <div class="clearfix grpelem" id="u551-4"><!-- content -->
-        <p>Unlimited color options with a backed color picker, including the gradients</p>
-    </div>
-    <div class="clearfix grpelem" id="u556-4"><!-- content -->
-        <p>Multiple layout options for home pages, portfolio section &amp; blog section</p>
-    </div>
-    <div class="BlueBox browser_width grpelem" id="u514"><!-- simple frame --></div>
-</div>
-<div class="clearfix colelem" id="pu718"><!-- group -->
-    <div class="clip_frame se_invi" id="u718"><!-- image -->
-        <img class="block" id="u718_img" src="/images/iphone5_2.png" alt="" width="643" height="675"/>
-    </div>
-    <div class="clip_frame se_invi" id="u521"><!-- image -->
-        <img class="block" id="u521_img" src="/images/iphone5.png" alt="" width="683" height="477"/>
-    </div>
-</div>
-<div class="BlueBox browser_width colelem" id="u1718"><!-- simple frame --></div>
-<div class="clearfix colelem" id="u709-5"><!-- content -->
-    <p>Great Next Level <span id="u709-2">Features</span></p>
-</div>
-<div class="clearfix colelem" id="u711-4"><!-- content -->
-    <p>A clean landing page to showcase your business services and send your customers reeling with awe.</p>
-</div>
-<div class="clearfix colelem" id="pu742-4"><!-- group -->
-    <div class="clearfix grpelem" id="u742-4"><!-- content -->
-        <p>Fully responsive so your content will always look good.</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u746"><!-- group -->
-        <div class="clip_frame grpelem" id="u750"><!-- image -->
-            <img class="block" id="u750_img" src="/images/check.png" alt="" width="14" height="14"/>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu743-4"><!-- group -->
-    <div class="clearfix grpelem" id="u743-4"><!-- content -->
-        <p>Sliders give you the opportunity to showcase important content</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u747"><!-- group -->
-        <div class="clip_frame grpelem" id="u752"><!-- image -->
-            <img class="block" id="u752_img" src="/images/check.png" alt="" width="14" height="14"/>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu744-4"><!-- group -->
-    <div class="clearfix grpelem" id="u744-4"><!-- content -->
-        <p>Color options with a backed color picker, including the gradients</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u748"><!-- group -->
-        <div class="clip_frame grpelem" id="u754"><!-- image -->
-            <img class="block" id="u754_img" src="/images/check.png" alt="" width="14" height="14"/>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu745-4"><!-- group -->
-    <div class="clearfix grpelem" id="u745-4"><!-- content -->
-        <p>Multiple layout options for home pages, portfolio section &amp; blog section</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u749"><!-- group -->
-        <div class="clip_frame grpelem" id="u756"><!-- image -->
-            <img class="block" id="u756_img" src="/images/check.png" alt="" width="14" height="14"/>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu778-4"><!-- group -->
-    <div class="clearfix grpelem" id="u778-4"><!-- content -->
-        <p>Fully responsive so your content will always look good.</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u774"><!-- group -->
-        <div class="clip_frame grpelem" id="u775"><!-- image -->
-            <img class="block" id="u775_img" src="/images/check.png" alt="" width="14" height="14"/>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu780-4"><!-- group -->
-    <div class="clearfix grpelem" id="u780-4"><!-- content -->
-        <p>Sliders give you the opportunity to showcase important content</p>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u779"><!-- group -->
-        <div class="clip_frame grpelem" id="u781"><!-- image -->
-            <img class="block" id="u781_img" src="/images/check.png" alt="" width="14" height="14"/>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu1734"><!-- group -->
-    <div class="browser_width grpelem" id="u1734"><!-- column -->
-        <div class="clearfix" id="u1734_align_to_page">
-            <div class="clearfix colelem" id="u1735-5"><!-- content -->
-                <p>Our Extra <span id="u1735-2">Features</span></p>
-            </div>
-            <div class="clearfix colelem" id="u1736-4"><!-- content -->
-                <p>A clean corporate page to showcase your business services and send your customers reeling with
-                    awe.</p>
-            </div>
-            <div class="clearfix colelem" id="pu1737"><!-- group -->
-                <div class="grpelem" id="u1737"><!-- simple frame --></div>
-                <div class="grpelem" id="u1754"><!-- simple frame --></div>
-                <div class="grpelem" id="u1762"><!-- simple frame --></div>
-            </div>
-            <div class="clearfix colelem" id="pu1744-4"><!-- group -->
-                <div class="clearfix grpelem" id="u1744-4"><!-- content -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas massa ut condimentum
-                        lacinia. Mauris eu nisi sed justo consectetur faucibus vel ut odio.</p>
-                </div>
-                <div class="clearfix grpelem" id="u1751-4"><!-- content -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas massa ut condimentum
-                        lacinia. Mauris eu nisi sed justo consectetur faucibus vel ut odio.</p>
-                </div>
-                <div class="clearfix grpelem" id="u1759-4"><!-- content -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas massa ut condimentum
-                        lacinia. Mauris eu nisi sed justo consectetur faucibus vel ut odio.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u1745"><!-- group -->
-        <div class="clearfix grpelem" id="u1746-4"><!-- content -->
-            <p>Beautifully Simplistic</p>
-        </div>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u1753"><!-- group -->
-        <div class="clearfix grpelem" id="u1752-4"><!-- content -->
-            <p>Extensive Style Options</p>
-        </div>
-    </div>
-    <div class="BlueBox clearfix grpelem" id="u1761"><!-- group -->
-        <div class="clearfix grpelem" id="u1760-4"><!-- content -->
-            <p>Easy to Start</p>
-        </div>
-    </div>
-</div>
-<div class="clearfix colelem" id="pu784"><!-- group -->
-    <div class="BlueBox browser_width grpelem" id="u784"><!-- group -->
+
+<div class="clearfix colelem" id="pu186" style="padding-bottom: 60px;"></div>
+
+<div class="clearfix colelem" id="pu784">
+    <div class="BlueBox browser_width grpelem" id="u784">
         <div class="clearfix" id="u784_align_to_page">
-            <div class="clip_frame grpelem" id="u1724"><!-- image -->
+            <div class="clip_frame grpelem" id="u1724">
                 <img class="block" id="u1724_img" src="/images/white_triangle.png" alt="" width="30" height="15"/>
             </div>
         </div>
@@ -468,166 +215,7 @@
         </div>
     </div>
 </div>
-<a class="anchor_item colelem" id="showcase"></a>
 
-<div class="clearfix colelem" id="u819-5"><!-- content -->
-    <p>Our Great <span id="u819-2">Showcase</span></p>
-</div>
-<div class="clearfix colelem" id="u820-4"><!-- content -->
-    <p>A clean landing page to showcase your business services and send your customers reeling with awe.</p>
-</div>
-<div class="SlideShowWidget clearfix colelem" id="slideshowu1073"><!-- none box -->
-    <div class="popup_anchor" id="u1099popup">
-        <div class="SlideShowContentPanel clearfix" id="u1099"><!-- stack box -->
-            <div class="SSSlide clip_frame grpelem" id="u1799"><!-- image -->
-                <img class="block ImageInclude" id="u1799_img" data-src="/images/1.jpg" src="images/blank.gif" alt=""
-                     data-width="590" data-height="393"/>
-            </div>
-            <div class="SSSlide invi clip_frame grpelem" id="u1808"><!-- image -->
-                <img class="block ImageInclude" id="u1808_img" data-src="/images/2.jpg" src="images/blank.gif" alt=""
-                     data-width="590" data-height="393"/>
-            </div>
-            <div class="SSSlide invi clip_frame grpelem" id="u1817"><!-- image -->
-                <img class="block ImageInclude" id="u1817_img" data-src="/images/3.jpg" src="images/blank.gif" alt=""
-                     data-width="590" data-height="393"/>
-            </div>
-            <div class="SSSlide invi clip_frame grpelem" id="u1826"><!-- image -->
-                <img class="block ImageInclude" id="u1826_img" data-src="/images/4.jpg" src="images/blank.gif" alt=""
-                     data-width="590" data-height="393"/>
-            </div>
-        </div>
-    </div>
-    <div class="popup_anchor" id="u1110popup">
-        <div class="SSSlideLinks clearfix" id="u1110"><!-- horizontal-rows box -->
-            <div class="SSSlideLink clip_frame clearfix grpelem" id="u1802"><!-- image -->
-                <div id="u1802_clip">
-                    <img class="position_content" id="u1802_img" src="/images/1260x174.jpg" alt="" width="260"
-                         height="173"/>
-                </div>
-            </div>
-            <div class="SSSlideLink clip_frame clearfix grpelem" id="u1811"><!-- image -->
-                <div id="u1811_clip">
-                    <img class="position_content" id="u1811_img" src="/images/2260x174.jpg" alt="" width="260"
-                         height="173"/>
-                </div>
-            </div>
-            <div class="SSSlideLink clip_frame clearfix grpelem" id="u1820"><!-- image -->
-                <div id="u1820_clip">
-                    <img class="position_content" id="u1820_img" src="/images/3260x174.jpg" alt="" width="260"
-                         height="173"/>
-                </div>
-            </div>
-            <div class="SSSlideLink clip_frame clearfix grpelem" id="u1829"><!-- image -->
-                <div id="u1829_clip">
-                    <img class="position_content" id="u1829_img" src="/images/4260x174.jpg" alt="" width="260"
-                         height="173"/>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="popup_anchor" id="u1098-3popup">
-        <div class="SSPreviousButton BlueBox clearfix" id="u1098-3"><!-- content -->
-            <p>&nbsp;</p>
-        </div>
-    </div>
-    <div class="popup_anchor" id="u1106-3popup">
-        <div class="SSNextButton BlueBox-Button clearfix" id="u1106-3"><!-- content -->
-            <p>&nbsp;</p>
-        </div>
-    </div>
-</div>
-<a class="anchor_item colelem" id="price"></a>
-
-<div class="browser_width colelem" id="u1299"><!-- column -->
-    <div class="clearfix" id="u1299_align_to_page">
-        <div class="clearfix colelem" id="u1302-6"><!-- content -->
-            <p>Product <span id="u1302-2">Price</span>&nbsp;Table</p>
-        </div>
-        <div class="clearfix colelem" id="u1303-4"><!-- content -->
-            <p>A clean landing page to showcase your business services and send your customers reeling with awe.</p>
-        </div>
-        <div class="clearfix colelem" id="pu1305"><!-- group -->
-            <div class="clearfix grpelem" id="u1305"><!-- column -->
-                <div class="position_content" id="u1305_position_content">
-                    <div class="clearfix colelem" id="u1314-4"><!-- content -->
-                        <p>Basic</p>
-                    </div>
-                    <div class="clearfix colelem" id="u1308"><!-- group -->
-                        <div class="clearfix grpelem" id="u1323-5"><!-- content -->
-                            <p id="u1323-3"><span id="u1323">$99</span><span id="u1323-2">/month</span></p>
-                        </div>
-                    </div>
-                    <div class="clearfix colelem" id="u1320-10"><!-- content -->
-                        <p>32 GB Storage</p>
-
-                        <p>Unlimited Users</p>
-
-                        <p>15 GB Bandwidth</p>
-
-                        <p>Enhanced Security</p>
-                    </div>
-                    <div class="clearfix colelem" id="u1311"><!-- group -->
-                        <div class="clearfix grpelem" id="u1317-4"><!-- content -->
-                            <p>Start Plan</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix grpelem" id="u1350"><!-- column -->
-                <div class="position_content" id="u1350_position_content">
-                    <div class="clearfix colelem" id="u1352-4"><!-- content -->
-                        <p>Premium</p>
-                    </div>
-                    <div class="clearfix colelem" id="u1351"><!-- group -->
-                        <div class="clearfix grpelem" id="u1353-5"><!-- content -->
-                            <p id="u1353-3"><span id="u1353">$199</span><span id="u1353-2">/month</span></p>
-                        </div>
-                    </div>
-                    <div class="clearfix colelem" id="u1354-10"><!-- content -->
-                        <p>32 GB Storage</p>
-
-                        <p>Unlimited Users</p>
-
-                        <p>15 GB Bandwidth</p>
-
-                        <p>Enhanced Security</p>
-                    </div>
-                    <div class="clearfix colelem" id="u1355"><!-- group -->
-                        <div class="clearfix grpelem" id="u1356-4"><!-- content -->
-                            <p>Start Plan</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix grpelem" id="u1364"><!-- column -->
-                <div class="position_content" id="u1364_position_content">
-                    <div class="clearfix colelem" id="u1366-4"><!-- content -->
-                        <p>Ultra</p>
-                    </div>
-                    <div class="clearfix colelem" id="u1365"><!-- group -->
-                        <div class="clearfix grpelem" id="u1367-5"><!-- content -->
-                            <p id="u1367-3"><span id="u1367">$299</span><span id="u1367-2">/month</span></p>
-                        </div>
-                    </div>
-                    <div class="clearfix colelem" id="u1368-10"><!-- content -->
-                        <p>32 GB Storage</p>
-
-                        <p>Unlimited Users</p>
-
-                        <p>15 GB Bandwidth</p>
-
-                        <p>Enhanced Security</p>
-                    </div>
-                    <div class="clearfix colelem" id="u1369"><!-- group -->
-                        <div class="clearfix grpelem" id="u1370-4"><!-- content -->
-                            <p>Start Plan</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="browser_width colelem" id="u1372"><!-- simple frame --></div>
 <div class="clearfix colelem" id="pu1371"><!-- group -->
     <div class="browser_width grpelem" id="u1371"><!-- group -->

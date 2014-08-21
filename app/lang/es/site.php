@@ -11,4 +11,7 @@ return array(
         'about'         =>  'Conocenos',
         'contact'       =>  'Contacto'
     ),
+    'about'         =>  array(
+        'title'         =>  "Sistema de pago exclusivo de ViziNova.",
+    ),
 );

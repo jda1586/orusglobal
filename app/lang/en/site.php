@@ -11,4 +11,7 @@ return array(
         'about'         =>  'About us',
         'contact'       =>  'Contact'
     ),
+    'about'         =>  array(
+        'title'         =>  "ViziNova's Exclusive Payout System.",
+    ),
 );

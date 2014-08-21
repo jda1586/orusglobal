@@ -52,7 +52,11 @@ Route::filter('auth.basic', function () {
 });
 
 Route::filter('lang', function ($route, $request) {
-    App::setLocale(($route->parameter('lang')) ? $route->parameter('lang') : 'en');
+    if ($route->parameter('lang')) {
+        App::setLocale(($route->parameter('lang')) ? $route->parameter('lang') : 'en');
+    } else {
+        return Redirect::route('root', ['lang' => 'en']);
+    }
 });
 
 /*

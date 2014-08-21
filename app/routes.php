@@ -14,16 +14,15 @@
 // Rutas del sitio
 Route::group(array('prefix' => '{lang?}', 'before' => 'lang'), function ($lang) {
     Route::get('/', array('as' => 'root', 'uses' => 'SiteController@index'));
-});
+    // Rutas para login
+    Route::group(array('before' => 'login_ready'), function () {
+        Route::get('login', array('as' => 'site.login', 'uses' => 'LoginController@index'));
+        Route::post('login', array('as' => 'site.login', 'uses' => 'LoginController@login'));
+    });
 
-// Rutas para login
-Route::group(array('before' => 'login_ready'), function () {
-    Route::get('login', array('as' => 'site.login', 'uses' => 'LoginController@index'));
-    Route::post('login', array('as' => 'site.login', 'uses' => 'LoginController@login'));
-});
-
-// Rutas para Orus
-Route::group(array('before' => 'auth'), function () {
-    Route::get('logout', array('as' => 'logout', 'uses' => 'loginController@logout'));
-    Route::get('dashboard', array('as' => 'orus.dashboard', 'uses' => 'DashboardController@index'));
+    // Rutas para Orus
+    Route::group(array('before' => 'auth'), function () {
+        Route::get('logout', array('as' => 'logout', 'uses' => 'loginController@logout'));
+        Route::get('dashboard', array('as' => 'orus.dashboard', 'uses' => 'DashboardController@index'));
+    });
 });

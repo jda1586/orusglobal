@@ -257,7 +257,7 @@
 <div class="clearfix colelem" id="pu1371">
     <div class="browser_width grpelem" id="u1371">
         <div class="clearfix" id="u1371_align_to_page">
-            <?= Form::open(['route' => ['orus.register', $lang], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
+            <?= Form::open(['files' => true, 'route' => ['orus.register', $lang], 'name' => 'orus_register', 'method' => 'POST', 'id' => 'orus_register']) ?>
             <div class="grpelem" id="pu1373">
                 <div id="u1373"></div>
                 <div class="clearfix" id="pu1381-4">
@@ -312,7 +312,7 @@
                         </p>
 
                         <p style="padding: 10px 0px;">
-                            <?= Form::file('id_file') ?>
+                            <?= Form::file('idfile') ?>
                         </p>
                     </div>
                     <div class="clearfix colelem" id="u1402-4">
@@ -322,7 +322,7 @@
                         </p>
 
                         <p style="padding: 10px 0px;">
-                            <?= Form::file('proof_file') ?>
+                            <?= Form::file('prooffile') ?>
                         </p>
                     </div>
                     <div class="clearfix colelem" id="u1402-4">
@@ -332,7 +332,7 @@
                         </p>
 
                         <p style="padding: 10px 0px;">
-                            <?= Form::file('corp_file') ?>
+                            <?= Form::file('corpfile') ?>
                         </p>
                     </div>
                 </div>
@@ -349,8 +349,8 @@
                             Wait 12 to 15 working days to receive your card in the mail.
                         </p>
                         <br>
-                        <?php foreach($errors->all() as $error){ ?>
-                            <div><?=$error?></div>
+                        <?php foreach ($errors->all() as $error) { ?>
+                            <div style="color: #ff0000;"><?= $error ?></div>
                         <?php } ?>
                         <p>
 

@@ -18,7 +18,7 @@ class SiteController extends \BaseController
         $seg = ($min-intval($min))*60;
         return View::make('site.index', [
             'lang' => $lang,
-            'deadline' => $seg + ($min * 60) + ($horas * 60 * 60)
+            'deadline' => $diff
         ]);
     }
 

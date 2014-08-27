@@ -29,6 +29,7 @@ class RegisterController extends \BaseController
      * Store a newly created resource in storage.
      * POST /register
      *
+     * @param $lang
      * @return Response
      */
     public function store($lang)

@@ -3,7 +3,6 @@
 <head>
 
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-    <meta name="generator" content="7.1.329.244"/>
     <title>Orus Global</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/site_global.css"/>
@@ -45,9 +44,13 @@
 
                     <div class="clearfix grpelem" id="u258"><!-- column -->
 
-                        <div id='countdown-title' style="margin-top: 110px; text-align: center">
-                            <h3>Request Your Payout Card Starting Wednesday, August 27 @ 1 pm Los Angeles, 3 pm Guadalajara, 10 pm Germany. See the countdown below.</h3>
-                            <div id="CountDownTimer" data-timer="5" style="width: 600px; height: 250px;"></div>
+                        <div id='countdown-title' style="margin-top: 50px; text-align: center">
+                            <p style="font-size: 20px; line-height: 25px; font-weight: bold; color: #0055aa; padding-left: 50px;">
+                               Request Your Payout Card Starting Wednesday,<br>
+                                August 27 @ 1pm Los Angeles, 3pm Guadalajara,<br>
+                                10pm Germany. See the countdown below.<?=date("Y-m-d H:i:s")?>
+                            </p>
+                            <div id="CountDownTimer" data-timer="<?=$deadline?>" style="width: 600px; height: 250px;"></div>
                         </div>
 
                         <div id='countdown-legend' style='display: none'>

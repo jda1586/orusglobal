@@ -92,7 +92,7 @@ class RegisterController extends \BaseController
                 'path'=>base_path().'/public/filesproof_file_'.Input::get('user'),
                 'status'=>1
             )));
-            if(Input::has('corpfile')){
+            if($file3->isValid()){
                 $file_suc = $file3->move(
                     base_path().'/files',
                     'corp_file_'.Input::get('user')

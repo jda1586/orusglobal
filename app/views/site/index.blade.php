@@ -393,7 +393,7 @@
                 <p style="font-size: 32px;">A Flexible, Fast Tool For ViziNova Distributor's Payments.</p>
             </div>
             <div class="clearfix colelem" id="u1445-4"><!-- content -->
-                <p>Oru Global is a subsidiary of ViziNova S.A. de C.V.</p>
+                <p>Orus Global is a subsidiary of ViziNova S.A. de C.V.</p>
             </div>
             <div class="clip_frame colelem" id="u1727"><!-- image -->
                 <img class="block" id="u1727_img" src="/images/white_triangle.png" alt="" width="30" height="15"/>

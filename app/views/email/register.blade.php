@@ -72,9 +72,17 @@
                                                         Dear <?= $name ?>,</h1><br/>
 
                                                     <p style='margin: 0;margin-bottom: 10px;color: #222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;padding: 0;text-align: left;line-height: 35px;font-size: 25px'>
-                                                        Welcome to <span style='color: #FFCD00'>Orus</span>, your
-                                                        account has been created, you will receive your card account in
+                                                        Welcome to <span style='color: #FFCD00'>Orus Global</span>, your
+                                                        account has been created, and you will receive your card within
                                                         2 to 4 weeks.</p>
+                                                    <p style='margin: 0;margin-bottom: 10px;color: #222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;padding: 0;text-align: left;line-height: 35px;font-size: 25px'>
+                                                        Bienvenido a <span style='color: #FFCD00'>Orus Global</span>, tu
+                                                        cuenta ha sido creada y recibierás tu tarjeta de 2 a 4 semanas.</p>
+                                                    <p style='margin: 0;margin-bottom: 10px;color: #222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;padding: 0;text-align: left;line-height: 35px;font-size: 25px'>
+                                                        Thank you  /  Gracias
+                                                        <br>
+                                                        ViziNova Finance Dept.
+                                                    </p>
                                                 </td>
                                                 <td class='expander'
                                                     style='word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0 !important;vertical-align: top;text-align: left;color: #222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;visibility: hidden;width: 0;border-collapse: collapse !important'></td>

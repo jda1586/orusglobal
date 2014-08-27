@@ -16,6 +16,10 @@
         document.documentElement.className += ' js';
         var __adobewebfontsappname__ = "muse";
     </script>
+
+    <!-- Time Circles css -->
+    <link rel="stylesheet" href="/css/TimeCircles.css" />
+
     <!-- JS includes -->
     <script type="text/javascript">
         document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/asap:n4,i4,i7:all.js" type="text/javascript">\x3C/script>');
@@ -36,54 +40,67 @@
                     <div class="clip_frame grpelem" id="u1701">
                         <img class="block" id="u1701_img" src="/img/Orus_person_main.png" alt="" height="500"/>
                     </div>
+
+
+
                     <div class="clearfix grpelem" id="u258"><!-- column -->
-                        <div class="colelem" id="pu264"><!-- inclusion -->
-                            <div id="u264"><!-- simple frame --></div>
-                            <div class="clearfix" id="pu259-6"><!-- group -->
-                                <div class="clearfix grpelem" id="u259-6"><!-- content -->
-                                    <div
-                                        style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
-                                        1
-                                    </div>
-                                    <p style="margin-bottom: 20px">
-                                        <span id="u259">Fill out completely </span><br>
-                                        <span id="u259-3">Complete all required fields</span>
-                                    </p>
 
-                                    <div
-                                        style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
-                                        2
-                                    </div>
-                                    <p style="margin-bottom: 20px">
-                                        <span id="u259">Upload Docs and Submit</span><br>
-                                        <span id="u259-3">ID and Proof of Address</span>
-                                    </p>
+                        <div id='countdown-title' style="margin-top: 110px; text-align: center">
+                            <h3>Request Your Payout Card Starting Wednesday, August 27 @ 1 pm Los Angeles, 3 pm Guadalajara, 10 pm Germany. See the countdown below.</h3>
+                            <div id="CountDownTimer" data-timer="5" style="width: 600px; height: 250px;"></div>
+                        </div>
 
-                                    <div
-                                        style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
-                                        3
+                        <div id='countdown-legend' style='display: none'>
+                            <div class="colelem" id="pu264"><!-- inclusion -->
+                                <div id="u264"><!-- simple frame --></div>
+                                <div class="clearfix" id="pu259-6"><!-- group -->
+                                    <div class="clearfix grpelem" id="u259-6"><!-- content -->
+                                        <div
+                                            style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
+                                            1
+                                        </div>
+                                        <p style="margin-bottom: 20px">
+                                            <span id="u259">Fill out completely </span><br>
+                                            <span id="u259-3">Complete all required fields</span>
+                                        </p>
+
+                                        <div
+                                            style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
+                                            2
+                                        </div>
+                                        <p style="margin-bottom: 20px">
+                                            <span id="u259">Upload Docs and Submit</span><br>
+                                            <span id="u259-3">ID and Proof of Address</span>
+                                        </p>
+
+                                        <div
+                                            style="padding: 3px 15px; background-color: #ffdd00; text-align: center; float: left; margin-right: 10px;">
+                                            3
+                                        </div>
+                                        <p style="margin-bottom: 20px">
+                                            <span id="u259">Pay $49 annual fee</span><br>
+                                            <span id="u259-3"></span>
+                                        </p>
                                     </div>
-                                    <p style="margin-bottom: 20px">
-                                        <span id="u259">Pay $49 annual fee</span><br>
-                                        <span id="u259-3"></span>
-                                    </p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="u260"><!-- group -->
+                                <div class="clip_frame grpelem" id="u261"><!-- image -->
+                                    <img class="block" id="u261_img" src="/images/next_icon.png" alt="" width="8"
+                                         height="14"/>
+                                </div>
+                                <div class="clearfix grpelem" id="u263-4">
+                                    <a href="#steps" style="text-decoration: none; color: white;">
+                                        <p>Go to Record</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="clearfix colelem" id="u260"><!-- group -->
-                            <div class="clip_frame grpelem" id="u261"><!-- image -->
-                                <img class="block" id="u261_img" src="/images/next_icon.png" alt="" width="8"
-                                     height="14"/>
-                            </div>
-                            <div class="clearfix grpelem" id="u263-4">
-                                <a href="#steps" style="text-decoration: none; color: white;">
-                                    <p>Go to Record</p>
-                                </a>
-                            </div>
-                        </div>
                     </div>
-                </div>
 
+
+
+                </div>
             </div>
         </div>
     </div>
@@ -445,6 +462,8 @@
 <script type="text/javascript">
     window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
+
+<script type="text/javascript" src="/scripts/TimeCircles.js"></script>
 <script src="/scripts/museutils.js?3865766194" type="text/javascript"></script>
 <script src="/scripts/jquery.tobrowserwidth.js?3842421675" type="text/javascript"></script>
 <script src="/scripts/jquery.scrolleffects.js?232004539" type="text/javascript"></script>
@@ -456,8 +475,33 @@
 <script src="/scripts/jquery.watch.js?4068933136" type="text/javascript"></script>
 <!-- Other scripts -->
 <script type="text/javascript">
+
     $(document).ready(function () {
         try {
+            //Instatiate TimeCircles
+            //TODO: Erase when no longer needed
+            /*$("#CountDownTimer").TimeCircles({ time: {
+                Days: { color: "#C0C8CF" },
+                Hours: { color: "#C0C8CF" },
+                Minutes: { color: "#C0C8CF" },
+                Seconds: { color: "#C0C8CF" }
+            }});*/
+
+            $("#CountDownTimer").TimeCircles({
+                    time: { Days: { show: false }, Seconds: { color: "#0099FF" }, Minutes: { color: "#8FD2FF" }, Hours: { color: "#C9EAFF" } },
+                    count_past_zero: false})
+                .addListener(function(unit, amount, total){
+                    if(total == 0) {
+                        alert("Time has run out");
+                        $('#countdown-legend').show();
+                        $('#countdown-title').hide();
+                        $(this).TimeCircles().end().fadeOut();
+                    }
+
+                });
+
+
+            //Muse utils
             Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();
             /* body */
             $('.browser_width').toBrowserWidth();
@@ -527,5 +571,6 @@
         }
     });
 </script>
+
 </body>
 </html>

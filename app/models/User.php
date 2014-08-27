@@ -8,7 +8,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface
 {
     use UserTrait, RemindableTrait;
 
-    protected $fillable = ['name', 'rol_id', 'terms', 'staus'];
+    protected $fillable = ['user', 'rol_id', 'terms', 'status'];
     /**
      * The database table used by the model.
      *
@@ -26,7 +26,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface
     //relaciones
     public function details()
     {
-        return $this->hasOne('UserDetails');
+        return $this->hasOne('UserDetail');
     }
 
     public function documents()

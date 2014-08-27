@@ -2,7 +2,7 @@
 
 class UserDocument extends \Eloquent
 {
-    protected $fillable = ['user_id', 'document_id', 'path', 'status'];
+    protected $fillable = ['document_id', 'path', 'status'];
 
     //relaciones
     public function user()

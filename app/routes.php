@@ -14,6 +14,7 @@
 // Rutas del sitio
 Route::group(array('prefix' => '{lang?}', 'before' => 'lang'), function ($lang) {
     Route::get('/', array('as' => 'root', 'uses' => 'SiteController@index', 'lang' => $lang));
+
     // Rutas para login
     Route::group(array('before' => 'login_ready'), function () {
         Route::get('login', array('as' => 'site.login', 'uses' => 'LoginController@index'));
@@ -25,5 +26,11 @@ Route::group(array('prefix' => '{lang?}', 'before' => 'lang'), function ($lang) 
     Route::group(array('before' => 'auth'), function () {
         Route::get('logout', array('as' => 'logout', 'uses' => 'loginController@logout'));
         Route::get('dashboard', array('as' => 'orus.dashboard', 'uses' => 'DashboardController@index'));
+    });
+
+    //Testing route for uploading data
+    Route::any('foo', function()
+    {
+        return 'Hello World';
     });
 });

@@ -2,7 +2,7 @@
 
 class UserDetail extends \Eloquent
 {
-    protected $fillable = ['user_id', 'name', 'lastname', 'address', 'zipcode', 'country_id', 'state_id', 'city_id', 'phone', 'email', 'birthday', 'gender'];
+    protected $fillable = ['name', 'lastname', 'address', 'zipcode', 'country_id', 'state_id', 'city_id', 'phone', 'email', 'birthday', 'gender'];
 
     //relaciones
     public function user()

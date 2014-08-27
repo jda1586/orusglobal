@@ -349,7 +349,9 @@
                             Wait 12 to 15 working days to receive your card in the mail.
                         </p>
                         <br>
-
+                        <?php foreach($errors->all() as $error){ ?>
+                            <div><?=$error?></div>
+                        <?php } ?>
                         <p>
 
                         <div class="clearfix colelem" id="u260" style="margin-left: 48px; cursor: pointer;"
@@ -500,9 +502,7 @@
                         $('#countdown-title').hide();
                         $(this).TimeCircles().end().fadeOut();
                     }
-
                 });
-
 
             //Muse utils
             Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();

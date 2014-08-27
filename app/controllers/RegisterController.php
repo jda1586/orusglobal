@@ -93,10 +93,13 @@ class RegisterController extends \BaseController
                 'status'=>1
             )));
             if(Input::has('corpfile')){
-                $file_suc = $file3->move(base_path().'/files', 'corp_file_'.Input::get('user').'.'.Input::file('corp_file').getMimeType());
+                $file_suc = $file3->move(
+                    base_path().'/files',
+                    'corp_file_'.Input::get('user')
+                );
                 $user->documents()->save(new UserDocument(array(
                     'document_id'=>3,
-                    'path'=>base_path().'/files/corp_file_'.Input::get('user').'.'.Input::file('corp_file').getMimeType(),
+                    'path'=>base_path().'/publicfiles/corp_file_'.Input::get('user'),
                     'status'=>1
                 )));
             }

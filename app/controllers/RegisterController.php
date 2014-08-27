@@ -36,7 +36,7 @@ class RegisterController extends \BaseController
     {
         $file = Input::file('idfile');
         $file2 = Input::file('prooffile');
-            $file3 = Input::file('corpfile');
+        $file3 = Input::file('corpfile');
 
         $validator = Validator::make(Input::all(), array(
             'user' => 'Required|AlphaNum',
@@ -92,7 +92,7 @@ class RegisterController extends \BaseController
                 'path'=>base_path().'/public/filesproof_file_'.Input::get('user'),
                 'status'=>1
             )));
-            if($file3->isValid()){
+            if(Input::has('corpfile')){
                 $file_suc = $file3->move(
                     base_path().'/files',
                     'corp_file_'.Input::get('user')

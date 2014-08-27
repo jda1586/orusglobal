@@ -17,7 +17,7 @@
     </script>
 
     <!-- Time Circles css -->
-    <link rel="stylesheet" href="/css/TimeCircles.css" />
+    <link rel="stylesheet" href="/css/TimeCircles.css"/>
 
     <!-- JS includes -->
     <script type="text/javascript">
@@ -41,16 +41,17 @@
                     </div>
 
 
-
                     <div class="clearfix grpelem" id="u258"><!-- column -->
 
                         <div id='countdown-title' style="margin-top: 50px; text-align: center">
                             <p style="font-size: 20px; line-height: 25px; font-weight: bold; color: #0055aa; padding-left: 50px;">
-                               Request Your Payout Card Starting Wednesday,<br>
+                                Request Your Payout Card Starting Wednesday,<br>
                                 August 27 @ 1pm Los Angeles, 3pm Guadalajara,<br>
                                 10pm Germany. See the countdown below.
                             </p>
-                            <div id="CountDownTimer" data-timer="<?=$deadline?>" style="width: 600px; height: 250px;"></div>
+
+                            <div id="CountDownTimer" data-timer="<?= $deadline ?>"
+                                 style="width: 600px; height: 250px;"></div>
                         </div>
 
                         <div id='countdown-legend' style='display: none'>
@@ -100,7 +101,6 @@
                             </div>
                         </div>
                     </div>
-
 
 
                 </div>
@@ -484,17 +484,17 @@
             //Instatiate TimeCircles
             //TODO: Erase when no longer needed
             /*$("#CountDownTimer").TimeCircles({ time: {
-                Days: { color: "#C0C8CF" },
-                Hours: { color: "#C0C8CF" },
-                Minutes: { color: "#C0C8CF" },
-                Seconds: { color: "#C0C8CF" }
-            }});*/
+             Days: { color: "#C0C8CF" },
+             Hours: { color: "#C0C8CF" },
+             Minutes: { color: "#C0C8CF" },
+             Seconds: { color: "#C0C8CF" }
+             }});*/
 
             $("#CountDownTimer").TimeCircles({
-                    time: { Days: { show: false }, Seconds: { color: "#0099FF" }, Minutes: { color: "#8FD2FF" }, Hours: { color: "#C9EAFF" } },
-                    count_past_zero: false})
-                .addListener(function(unit, amount, total){
-                    if(total == 0) {
+                time: { Days: { show: false }, Seconds: { color: "#0099FF" }, Minutes: { color: "#8FD2FF" }, Hours: { color: "#C9EAFF" } },
+                count_past_zero: false})
+                .addListener(function (unit, amount, total) {
+                    if (total == 0) {
                         //alert("Time has run out");
                         $('#countdown-legend').show();
                         $('#countdown-title').hide();

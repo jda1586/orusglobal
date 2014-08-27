@@ -48,7 +48,7 @@
                             <p style="font-size: 20px; line-height: 25px; font-weight: bold; color: #0055aa; padding-left: 50px;">
                                Request Your Payout Card Starting Wednesday,<br>
                                 August 27 @ 1pm Los Angeles, 3pm Guadalajara,<br>
-                                10pm Germany. See the countdown below.<?=date("Y-m-d H:i:s")?>
+                                10pm Germany. See the countdown below.
                             </p>
                             <div id="CountDownTimer" data-timer="<?=$deadline?>" style="width: 600px; height: 250px;"></div>
                         </div>

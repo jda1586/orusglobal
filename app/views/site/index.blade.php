@@ -492,7 +492,7 @@
                     count_past_zero: false})
                 .addListener(function(unit, amount, total){
                     if(total == 0) {
-                        alert("Time has run out");
+                        //alert("Time has run out");
                         $('#countdown-legend').show();
                         $('#countdown-title').hide();
                         $(this).TimeCircles().end().fadeOut();

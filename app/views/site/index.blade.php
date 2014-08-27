@@ -16,6 +16,10 @@
         var __adobewebfontsappname__ = "muse";
     </script>
 
+    <script type="text/javascript">
+        window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+    </script>
+
     <!-- Time Circles css -->
     <link rel="stylesheet" href="/css/TimeCircles.css"/>
 
@@ -354,14 +358,19 @@
                         <?php } ?>
                         <p>
 
-                        <div class="clearfix colelem" id="u260" style="margin-left: 48px; cursor: pointer;"
+                        <div class="clearfix colelem submitbutton" id="u260" style="margin-left: 48px; cursor: pointer;"
                              onclick="document.getElementById('orus_register').submit();">
                             <div class="clip_frame grpelem" id="u261">
                                 <img class="block" id="u261_img" src="/images/next_icon.png" alt="" width="8"
                                      height="14"/>
                             </div>
                             <div class="clearfix grpelem" id="u263-4">
-                                <p>Submit</p>
+                                <p id='submit-registration'>Submit</p>
+                                <script>
+                                    $('#submit-registration').click( function() {
+                                        $(this).text('Uploading information');
+                                    });
+                                </script>
                             </div>
                         </div>
                         </p>
@@ -463,9 +472,6 @@
 <!-- JS includes -->
 <script type="text/javascript">
     if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-<script type="text/javascript">
-    window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
 </script>
 
 <script type="text/javascript" src="/scripts/TimeCircles.js"></script>

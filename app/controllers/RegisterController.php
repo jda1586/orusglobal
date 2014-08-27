@@ -43,7 +43,7 @@ class RegisterController extends \BaseController
             'name' => 'Required',
             'lastname' => 'Required',
             'address' => 'Required',
-            'zipcode' => 'Required|Numeric|Min:4',
+            'zipcode' => 'Required|Min:4',
             'phone' => 'Required',
             'email' => 'Required|Email|Min:8',
             'birthday' => 'Required',

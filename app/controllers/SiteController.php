@@ -14,7 +14,7 @@ class SiteController extends \BaseController
         $diff = strtotime("2014-08-27 15:00:00") - strtotime(date("Y-m-d H:i:s"));
         return View::make('site.index', [
             'lang' => $lang,
-            'deadline' => $diff
+            'deadline' => ($diff > 0)?$diff:0
         ]);
     }
 

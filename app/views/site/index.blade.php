@@ -47,18 +47,19 @@
 
                     <div class="clearfix grpelem" id="u258"><!-- column -->
 
-                        <div id='countdown-title' style="margin-top: 50px; text-align: center">
+                        <!-- CountDown no longer enabled -->
+                        <!-- <div id='countdown-title' style="margin-top: 50px; text-align: center">
                             <p style="font-size: 20px; line-height: 25px; font-weight: bold; color: #0055aa; padding-left: 50px;">
                                 Request Your Payout Card Starting Wednesday,<br>
                                 August 27 @ 1pm Los Angeles, 3pm Guadalajara,<br>
                                 10pm Germany. See the countdown below.
                             </p>
 
-                            <div id="CountDownTimer" data-timer="<?= $deadline ?>"
+                            <div id="CountDownTimer"
                                  style="width: 600px; height: 250px;"></div>
-                        </div>
+                        </div> -->
 
-                        <div id='countdown-legend' style='display: none'>
+                        <div id='countdown-legend'>
                             <div class="colelem" id="pu264"><!-- inclusion -->
                                 <div id="u264"><!-- simple frame --></div>
                                 <div class="clearfix" id="pu259-6"><!-- group -->
@@ -367,8 +368,9 @@
                             <div class="clearfix grpelem" id="u263-4">
                                 <p id='submit-registration'>Submit</p>
                                 <script>
-                                    $('#submit-registration').click( function() {
-                                        $(this).text('Uploading information');
+                                    $('.submitbutton').click( function() {
+                                        $('.submitbutton').attr('onclick','').unbind('click');
+                                        $('#submit-registration').text('Uploading information');
                                     });
                                 </script>
                             </div>
@@ -489,16 +491,8 @@
 
     $(document).ready(function () {
         try {
-            //Instatiate TimeCircles
-            //TODO: Erase when no longer needed
-            /*$("#CountDownTimer").TimeCircles({ time: {
-             Days: { color: "#C0C8CF" },
-             Hours: { color: "#C0C8CF" },
-             Minutes: { color: "#C0C8CF" },
-             Seconds: { color: "#C0C8CF" }
-             }});*/
-
-            $("#CountDownTimer").TimeCircles({
+            //Instatiate TimeCircles, no longer enabled by default
+            /*$("#CountDownTimer").TimeCircles({
                 time: { Days: { show: false }, Seconds: { color: "#0099FF" }, Minutes: { color: "#8FD2FF" }, Hours: { color: "#C9EAFF" } },
                 count_past_zero: false})
                 .addListener(function (unit, amount, total) {
@@ -508,7 +502,7 @@
                         $('#countdown-title').hide();
                         $(this).TimeCircles().end().fadeOut();
                     }
-                });
+                });*/
 
             //Muse utils
             Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();

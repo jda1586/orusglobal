@@ -77,7 +77,7 @@
                                                         2 to 4 weeks.</p>
                                                     <p style='margin: 0;margin-bottom: 10px;color: #222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;padding: 0;text-align: left;line-height: 35px;font-size: 25px'>
                                                         Bienvenido a <span style='color: #FFCD00'>Orus Global</span>, tu
-                                                        cuenta ha sido creada y recibierás tu tarjeta de 2 a 4 semanas.</p>
+                                                        cuenta ha sido creada y recibirás tu tarjeta de 2 a 4 semanas.</p>
                                                     <p style='margin: 0;margin-bottom: 10px;color: #222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;padding: 0;text-align: left;line-height: 35px;font-size: 25px'>
                                                         Thank you  /  Gracias
                                                         <br>
